@@ -43,6 +43,14 @@ input[type="text"]:disabled
   color: #626264;
 }
 
+/*
+
+.container-checkout{
+  background-color: var(--secondary) !important;
+}
+*/
+
+
 .btn {
   font-size: 15px;
 }
