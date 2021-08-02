@@ -50,9 +50,12 @@ input[type="text"]:disabled
 }
 */
 
-
 .btn {
   font-size: 15px;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
 }
 
 .bg-secondary {
@@ -64,6 +67,18 @@ input[type="text"]:disabled
   border-color: var(--secondary);
 }
 
+.btn-secondary{
+  background-color: var(--secondary) !important;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:disabled,
+.btn-primary:hover {
+  background-color: var(--primary) !important;
+  border-color: var(--primary);
+}
 .bg-primary {
   /*!important serve para que a web pega a nossa variavel global e não a do bootstrap*/
   background-color: var(--primary) !important;

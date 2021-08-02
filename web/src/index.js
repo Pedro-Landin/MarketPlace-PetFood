@@ -7,7 +7,7 @@ import Checkout from './pages/checkout';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Checkout/>
+    <Checkout />
   </React.StrictMode>,
   document.getElementById('root')
 );
