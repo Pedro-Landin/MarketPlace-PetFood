@@ -17,7 +17,7 @@
 }
 
 .product-list button {
-    position: absolute;
+    position: relative;
     padding: 1px 14px;
     font-size: 25px;
     margin-top: 20px;

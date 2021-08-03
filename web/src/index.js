@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Cadastro from './pages/cadastro';
+//mport Cadastro from './pages/cadastro';
 import './styles/global.css';
 import Checkout from './pages/checkout';
 

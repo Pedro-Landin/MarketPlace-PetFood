@@ -98,12 +98,14 @@ const Checkout = () => {
               </button>
             </div>
           </div>
-          <div className="col-5 justify-content-end">
+          <div className="col-5 ">
             <div className="box col mb-4">
               <h4>Minha Sacola (4)</h4>
 
-              <div className="row products">
-                <Product />
+              <div className="row products box-sidebar">
+                {[1, 2, 3, 4, 5, 6, 7, 9].map((p) => (
+                  <Product />
+                ))}
               </div>
             </div>
           </div>

@@ -15,7 +15,7 @@ const Product = () => {
                 <label className="badge badge-primary">R$ 30,00</label>
             </h6>
           <small>
-            <b>Nome do Produto</b>
+            <b>Ração Golden Fórrmula para Cães Adultos </b>
           </small>
         </div>
         <div className="col-3">
