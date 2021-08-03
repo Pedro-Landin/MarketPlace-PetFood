@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
 :root {
-  --primary: #c0955d;
-  --secondary: #fa643d;
+  --primary: 192, 149, 93;
+  --secondary: 250, 100, 61;
   /*
     #c0955d
     #FFF28c
@@ -55,20 +55,20 @@ input[type="text"]:disabled
 }
 
 .bg-primary {
-  background-color: var(--primary) !important;
+  background-color: rgb(var(--primary)) !important;
 }
 
 .bg-secondary {
-  background-color: var(--secondary) !important;
+  background-color: rgb(var(--secondary)) !important;
 }
 
 .btn-outline-secondary:hover {
-  background-color: var(--secondary) !important;
-  border-color: var(--secondary);
+  background-color: rgb(var(--secondary)) !important;
+  border-color: rgb(var(--secondary));
 }
 
-.btn-secondary{
-  background-color: var(--secondary) !important;
+.btn-secondary {
+  background-color: rgb(var(--secondary)) !important;
 }
 
 .btn-primary,
@@ -76,16 +76,26 @@ input[type="text"]:disabled
 .btn-primary:active,
 .btn-primary:disabled,
 .btn-primary:hover {
-  background-color: var(--primary) !important;
-  border-color: var(--primary);
+  background-color: rgb(var(--primary)) !important;
+  border-color: rgb(var(--primary));
 }
 .bg-primary {
   /*!important serve para que a web pega a nossa variavel global e não a do bootstrap*/
-  background-color: var(--primary) !important;
+  background-color: rgb(var(--primary)) !important;
 }
 
-.badge-primary{
-  background-color: blue !important;
+.badge {
+  font-weight: lighter;
+}
+
+.badge.badge-primary {
+  background: rgba(var(--primary), 0.1);
+  color: rgb(var(--primary));
+}
+
+.badge.badge-secondary {
+  background: rgba(var(--secondary), 0.1);
+  color: rgb(var(--secondary));
 }
 
 .box {
