@@ -6,6 +6,6 @@
 }
 
 .box-sidebar {
-    max-height: 500px;
+    max-height: 380px;
     overflow-y: auto;
 }
