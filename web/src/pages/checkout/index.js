@@ -5,7 +5,7 @@ import "./styles.css";
 const Checkout = () => {
   return (
     <div class="container-checkout">
-      <Header whiteVersion />
+      <Header whiteVersion hideCart/>
       <div className="container mt-3">
         <div className="row justify-content-between">
           <div className="col-6">

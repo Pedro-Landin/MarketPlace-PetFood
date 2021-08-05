@@ -6,7 +6,7 @@ const Cadastro = () => {
     /**Tela de fundo */
     <div className="container-fluid h-100 bg-primary ">
       {/**Logo PetFood */}
-      <Header whiteVersion/>
+      <Header whiteVersion hideCart/>
 
       {/**Middle da pagina*/}
       <div className="row">

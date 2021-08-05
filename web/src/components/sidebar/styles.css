@@ -1,0 +1,13 @@
+.sidebar h5 {
+    height: 30px;
+    margin-bottom: 0;
+}
+
+/*Deixand o apenas o conteudo do meio do Sidebar rolavel*/
+.sidebar .products {
+    /*Pegando 100% do tamanho do sidebar e diminuindo 190px*/
+    height: calc(100% - 190px);
+    overflow: auto;
+    align-content: flex-start;
+    
+}
