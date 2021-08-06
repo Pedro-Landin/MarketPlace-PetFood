@@ -5,11 +5,12 @@ import './styles/global.css';
 //import Checkout from './pages/checkout';
 import Petshop from './pages/petshop';
 import Sidebar from './components/sidebar';
+import Home from './pages/home';
 
 ReactDOM.render(
   <React.StrictMode>
     <Sidebar />
-    <Petshop />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
