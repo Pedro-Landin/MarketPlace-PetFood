@@ -4,7 +4,7 @@ import Product from "../../components/product/card";
 
 const Petshop = () => {
   return (
-    <div className="h-100">
+    <div className="h-100 ">
       <Header whiteVersion />
 
       <div className="container">

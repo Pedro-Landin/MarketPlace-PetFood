@@ -2,6 +2,13 @@
     position: relative;
     float: right;
     z-index: 999;
-    margin-top: -70px;
+    margin-top: -55px;
     margin-right: 20px;
+    background-color: #fff;
+
+}
+
+.header {
+    background-color: rgb(var(--primary)) !important;
+
 }
