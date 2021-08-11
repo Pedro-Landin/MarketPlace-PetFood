@@ -1,5 +1,5 @@
 # MarketPlace-PetFood
-MarketPlace onde varios logistas poderão cadastrar o seus produtos para venda
+MarketPlace de venda de produto para o seu Dog
 
 # Demonstração 
 <h1 align="center">
